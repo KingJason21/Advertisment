@@ -1,0 +1,358 @@
+nav{
+    display: grid;
+    grid-template-columns: 10% 80% 10% ;
+    padding: 20px;
+    background-color: peachpuff;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+
+
+nav ul li{
+    padding-right: 170px;
+    display: inline;
+    margin: -30px;
+    font-weight: 700;
+    cursor: pointer;
+    
+    
+}
+
+.button1{
+    float: right;
+    background-color:orange;
+    border-radius: 50px;
+    font-weight: 800;
+    width: 150px;
+    cursor: pointer;
+    
+}
+.button1:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.container1{
+    background-color: peachpuff;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.work h1{
+    font-size: 80px;
+    padding-left: 70px;
+   
+
+}
+
+.work p{
+    padding-left: 70px;
+    font-weight: light;
+    font-size: 20px;
+    
+}
+
+.button2{
+    background-color:orange;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 800;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 70px;
+
+}
+
+.button2:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.firstImage{
+    height: 500px;
+    width: 700px;
+    padding-top: 10px;
+}
+
+.all{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+
+.imagE{
+    height:400px;
+    width: 600px;
+    border-radius: 25px;
+    object-fit: cover;
+    
+}
+
+.teams{
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    font-size: 90px;
+    font-weight: lighter;
+}
+
+.class{
+    background-color: peachpuff;
+}
+
+.one{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 30px;
+}
+
+.customized{
+    margin-left: 50px;
+}
+.customized h1{
+    font-size: 70px;
+}
+
+.customized p{
+    font-size: 25px;
+    padding-right: 50px;
+
+}
+
+.button{
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.star{
+    padding-top: 50px;
+    padding-left: 290px;
+    display: inline;
+    width: 1o0px;
+    height: 100px;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 70px;
+}
+
+.two{
+    border: solid 2px #000;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.two p{
+    font-size: 25px;
+}
+
+.two .first{
+    padding-bottom: 50px;
+}
+
+.two .last{
+    padding-bottom: 30px;
+}
+
+.two .foot{
+    font-weight: lighter;
+    font-size: small;
+}
+
+.manage{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+
+} 
+
+.firstpair{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 70px;
+}
+
+.three{
+    border: solid 1px lightblue;
+    border-radius: 25px;
+    width: 550px;
+}
+
+
+.firstpair .images{
+    width: 550px;
+    height: 250px;
+    border-top-right-radius: 25px ;
+    border-top-left-radius: 25px ;
+}
+
+.firstpair h3{
+    padding-left: 30px;
+    padding-top: 30px   ;
+}
+
+.firstpair p{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    font-size: large;
+}
+
+
+.container4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 70px;
+}
+
+.circleImage{
+    width: 500px;
+    height: 250px;
+
+}
+
+.container4 h2{
+    font-size: 40px;
+    padding-right: 100px;
+}
+
+.container4 .start{
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container4 .start:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.house{
+    margin: 70px;
+    width: 1200px;
+}
+
+.ready h1{
+    text-align: center;
+    font-size: 70px;
+}
+
+.ready p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: -20px;
+    padding-left: 430px;
+    padding-right: 430px;
+}
+
+.ready .button3{
+    background-color:orange;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 800;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 570px;
+}
+
+
+.ready .button3:hover{
+    background-color: black;
+    color: #fff;
+
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 70px;
+    background-color: lightgoldenrodyellow;
+}
+
+.firstpart .logoo{
+    width: 150px;
+    margin-bottom: 30px;
+
+}
+
+.butt{
+    background-color: orange;
+    border-radius: 25px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.butt:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.secondpart li{
+    list-style-type: none;
+    padding-bottom: 10px;
+
+}
+
+span{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+span .soon{
+    font-weight: lighter;
+    font-size: x-small;
+}
+.break{
+    background-color:  lightgoldenrodyellow;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 70px;
+}
+.copy ul{
+    list-style-type: none;
+    text-align: left;
+    
+} 
+
+.copy ul li{
+    display: inline;
+    
+}
+
+
+
+
+
